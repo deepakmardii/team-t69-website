@@ -15,12 +15,10 @@ const Home = () => {
   return (
     <div className="bg-slate-900">
       <section className="relative bg-[url(https://cdn.eraspace.com/pub/media/mageplaza/blog/post/v/a/valorantintro.jpg)] bg-cover bg-center bg-no-repeat">
-        <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-          <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <p className="mt-4 max-w-lg sm:text-xl/relaxed text-left">
-              Elevating Excellence, Dominating Virtually! Unleashing passion,
-              skill, and synergy in every game, we redefine esports glory one
-              victory at a time. Join the journey, witness the power of T69!
+        <div className="relative mx-auto px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+          <div className="text-center ltr:sm:text-left rtl:sm:text-right">
+            <p className="mt-72 max-w-xl text-3xl font-sans sm:text-5xl sm:text-left uppercase font-black text-red-600">
+              witness the power of t69
             </p>
           </div>
         </div>
@@ -30,7 +28,7 @@ const Home = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-8xl pb-6 uppercase text-red-500">
+              <h2 className="text-6xl font-sans font-bold sm:text-8xl pb-6 uppercase text-red-600">
                 About Us
               </h2>
               <div>
@@ -69,15 +67,14 @@ const Home = () => {
       <hr />
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="text-left font-semibold uppercase text-3xl sm:text-7xl underline hover:text-red-500 transition-all hover:cursor-pointer">
-            Meet the Team-T69
+          <div className="text-left font-semibold uppercase text-6xl sm:text-8xl font-sans text-red-600 transition-all hover:cursor-pointer">
+            Meet the Team
           </div>
           <p className="py-10 sm:pr-96 sm:mr-96">
             In Team T69, players aren't just part of a team; they are champions,
             pushing the boundaries of what's possible in the ever-evolving
             landscape of esports.
           </p>
-
           <Marquee>
             <div className="flex">
               {cardDataList.map((cardData, index) => (
