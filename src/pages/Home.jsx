@@ -26,8 +26,8 @@ const Home = () => {
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="lg:py-24">
-              <h2 className="text-6xl font-sans font-bold sm:text-8xl pb-6 uppercase text-red-600">
+            <div className="pt-5 sm:py-24">
+              <h2 className="text-6xl font-sans font-bold sm:text-8xl pb-6 uppercase text-teal-400">
                 About Us
               </h2>
               <div>
@@ -65,8 +65,8 @@ const Home = () => {
       </section>
       <hr />
       <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="text-left font-semibold uppercase text-6xl sm:text-8xl font-sans text-red-600 transition-all hover:cursor-pointer">
+        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+          <div className="text-left font-bold uppercase text-6xl sm:text-8xl font-sans text-teal-400 ">
             Meet the Team
           </div>
           <p className="py-10 sm:pr-96 sm:mr-96">

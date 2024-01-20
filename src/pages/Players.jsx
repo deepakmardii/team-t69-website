@@ -84,12 +84,12 @@ const Players = () => {
               magnam neque, exercitationem eius sunt!
             </p>
           </div> */}
-          <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-2 px-20">
+          <div className="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-2 px-20 pt-10">
             {developersData.map((developer) => (
               <div key={developer.id} className="space-y-4 uppercase">
                 <img
                   alt=""
-                  className="h-72 sm:h-96 mx-auto mb-4 bg-center rounded-sm hover:scale-110 transition duration-500 cursor-pointer "
+                  className="h-80 sm:h-96 mx-auto mb-4 bg-center rounded-sm hover:scale-110 transition duration-500 cursor-pointer "
                   src={developer.imageUrl}
                 />
                 <div className="flex flex-col items-center ">

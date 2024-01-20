@@ -30,8 +30,8 @@ export default function App() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand>
-          <Link className="text-5xl font-bold text-inherit" to="/">
+        <NavbarBrand className="justify-end sm:justify-start">
+          <Link className="text-5xl font-bold text-inherit " to="/">
             <img
               src="/logo.jpg"
               alt="logo"
@@ -74,10 +74,13 @@ export default function App() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item.label}-${index}`}>
-            <Link className="w-full" to={item.link} size="lg">
+          <NavbarMenuItem
+            key={`${item.label}-${index}`}
+            className="pt-10 font-bold text-3xl uppercase text-center"
+          >
+            <Link className="w-full text-center" to={item.link} size="lg">
               {item.label}
             </Link>
           </NavbarMenuItem>
