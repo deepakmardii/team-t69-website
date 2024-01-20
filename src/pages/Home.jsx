@@ -17,7 +17,7 @@ const Home = () => {
       <section className="relative bg-[url(https://cdn.eraspace.com/pub/media/mageplaza/blog/post/v/a/valorantintro.jpg)] bg-cover bg-center bg-no-repeat">
         <div className="relative mx-auto px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="text-center ltr:sm:text-left rtl:sm:text-right">
-            <p className="mt-72 max-w-xl text-3xl font-sans sm:text-5xl sm:text-left uppercase font-black text-red-600">
+            <p className="mt-72 max-w-xl text-3xl font-sans sm:text-5xl sm:text-left uppercase font-black text-slate-500">
               witness the power of t69
             </p>
           </div>
