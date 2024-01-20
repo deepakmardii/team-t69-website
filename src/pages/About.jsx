@@ -2,17 +2,19 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-neutral-300 text-slate-950 px-40">
-      <div className="uppercase font-black text-8xl pt-6">our story</div>
+    <div className="bg-neutral-300 text-slate-950 px-5 sm:px-40">
+      <div className="uppercase font-black text-5xl sm:text-8xl pt-6">
+        our story
+      </div>
       <hr className="border-black" />
-      <div className="text-red-600 text-2xl pt-6 uppercase">
+      <div className="text-red-600 text-lg sm:text-2xl pt-6 uppercase">
         T69 IS A PREMIER ESPORTS TEAM hailing from the vibrant gaming community
         of India.
       </div>
-      <div className="py-6 font-black text-3xl">
+      <div className="py-6 font-black text-xl sm:text-3xl">
         Currently we field competitive team in Valorant.
       </div>
-      <div className="text-lg pb-20">
+      <div className="text-sm sm:text-lg pb-20">
         Our journey began with a singular vision: to redefine the esports
         landscape by crafting a team that embodies skill, sportsmanship, and a
         relentless pursuit of victory. In the fast-paced world of Valorant,

@@ -1,6 +1,5 @@
 import Marquee from "react-fast-marquee";
 import CustomCard from "../components/CustomCard";
-import { GoArrowUpRight } from "react-icons/go";
 
 const Home = () => {
   const cardDataList = [
