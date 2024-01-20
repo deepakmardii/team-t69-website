@@ -21,7 +21,10 @@ export default function App() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-gray-800 py-2-">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className="bg-gray-800 py-2 uppercase "
+    >
       <NavbarContent className="">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -29,23 +32,44 @@ export default function App() {
         />
         <NavbarBrand>
           <Link className="text-5xl font-bold text-inherit" href="/">
-            T69
+            <img
+              src="/logo.jpg"
+              alt="logo"
+              className="h-14 w-14 rounded-full"
+            />
           </Link>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
         <NavbarItem>
-          <Link className="text-white font-semibold text-xl" href="/about">
+          <Link
+            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
+            href="/"
+          >
+            Home
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
+            href="/about"
+          >
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white font-semibold text-xl" href="/players">
+          <Link
+            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
+            href="/players"
+          >
             Players
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white font-semibold text-xl" href="/contact">
+          <Link
+            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
+            href="/contact"
+          >
             Contact
           </Link>
         </NavbarItem>

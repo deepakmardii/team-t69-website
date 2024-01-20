@@ -1,9 +1,9 @@
 import React from "react";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import { Card, CardFooter, Image } from "@nextui-org/react";
 
 const CustomCard = ({ imageUrl, text }) => {
   return (
-    <Card isFooterBlurred radius="lg" className="border-none">
+    <Card isFooterBlurred radius="lg" className="border-none mr-14">
       <Image
         alt="#"
         className="object-cover h-80"
