@@ -44,14 +44,6 @@ export default function App() {
         <NavbarItem>
           <Link
             className="text-white hover:text-red-500 transition-all font-semibold text-xl"
-            href="/"
-          >
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
             href="/about"
           >
             About
