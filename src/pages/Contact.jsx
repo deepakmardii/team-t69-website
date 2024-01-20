@@ -4,11 +4,10 @@ const Contact = () => {
   return (
     <div className="mx-auto flex flex-col items-center justify-center gap-20 px-2 pb-16 pt-16 sm:px-8 bg-neutral-300">
       <article className="grid max-w-2xl flex-1 gap-10 text-center text-black">
-        <h1 className="text-8xl font-black uppercase tracking-widest text-black ">
+        <h1 className="text-5xl sm:text-8xl font-black uppercase tracking-widest text-black ">
           Contact
         </h1>
-
-        <p className="leading-8 tracking-wider  text-lg">
+        <p className="leading-snug sm:leading-8 tracking-wider text sm:text-lg ">
           Whether you&apos;re interested in networking, or career advice, or
           want to have a casual conversation, I look forward to communicating
           with you and learning from our interactions!

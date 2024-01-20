@@ -32,7 +32,7 @@ const Players = () => {
     },
     {
       id: 4,
-      name: "sahil ''strixx",
+      name: "sahil 'strixx'",
       imageUrl: "https://source.unsplash.com/240x320/?portrait?5",
       socialLinks: [
         { title: "Youtube", url: "#" },
@@ -61,17 +61,19 @@ const Players = () => {
   return (
     <div>
       <section className="relative bg-[url(https://overgear.com/cdn/files/745c2824-aa34-477e-adf7-22fc08fa121d)] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
-
-        <div className="relative justify-center items-center mx-auto max-w-screen-xl px-4 py-32 flex lg:h-screen">
+        <div className="relative justify-center items-center mx-auto max-w-screen-xl px-4 py-28 sm:py-32 flex lg:h-screen">
           <div className="max-w-xl text-center">
-            <p className="mt-4 max-w-lg font-bold text-8xl">VALORANT</p>
-            <p className="text-xl">MEET THE PLAYERS OF THE T69 VALORANT TEAM</p>
+            <p className="mt-4 max-w-lg font-bold text-4xl sm:text-8xl">
+              VALORANT
+            </p>
+            <p className="text-lg sm:text-xl">
+              MEET THE PLAYERS OF THE T69 VALORANT TEAM
+            </p>
           </div>
         </div>
       </section>
       <section className="py-6 bg-neutral-300 text-black">
-        <div className="container p-4 mx-auto space-y-16 sm:p-10">
+        <div className="container mx-auto space-y-16 sm:p-10">
           {/* <div className="space-y-4">
             <h3 className="text-2xl font-bold leadi sm:text-5xl">
               Meet our team
@@ -87,11 +89,13 @@ const Players = () => {
               <div key={developer.id} className="space-y-4 uppercase">
                 <img
                   alt=""
-                  className="h-96 mx-auto mb-4 bg-center rounded-sm hover:scale-110 transition duration-500 cursor-pointer "
+                  className="h-72 sm:h-96 mx-auto mb-4 bg-center rounded-sm hover:scale-110 transition duration-500 cursor-pointer "
                   src={developer.imageUrl}
                 />
                 <div className="flex flex-col items-center ">
-                  <h4 className="text-xl font-semibold">{developer.name}</h4>
+                  <h4 className="text-xl font-semibold text-center">
+                    {developer.name}
+                  </h4>
                   <div className="flex mt-2 space-x-2">
                     {developer.socialLinks.map((socialLink, index) => (
                       <a
