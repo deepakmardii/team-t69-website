@@ -4,11 +4,11 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
