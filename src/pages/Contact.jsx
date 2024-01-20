@@ -7,7 +7,7 @@ const Contact = () => {
         <h1 className="text-5xl sm:text-8xl font-black uppercase tracking-widest text-black ">
           Contact
         </h1>
-        <p className="leading-snug sm:leading-8 tracking-wider text sm:text-lg ">
+        <p className="leading-snug sm:leading-8 text sm:text-lg ">
           Whether you&apos;re interested in networking, or career advice, or
           want to have a casual conversation, I look forward to communicating
           with you and learning from our interactions!
