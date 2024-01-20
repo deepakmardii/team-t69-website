@@ -31,7 +31,7 @@ export default function App() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Link className="text-5xl font-bold text-inherit" href="/">
+          <Link className="text-5xl font-bold text-inherit" to="/">
             <img
               src="/logo.jpg"
               alt="logo"
@@ -44,7 +44,15 @@ export default function App() {
         <NavbarItem>
           <Link
             className="text-white hover:text-red-500 transition-all font-semibold text-xl"
-            href="/about"
+            to="/"
+          >
+            Home
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            className="text-white hover:text-red-500 transition-all font-semibold text-xl"
+            to="/about"
           >
             About
           </Link>
@@ -52,7 +60,7 @@ export default function App() {
         <NavbarItem>
           <Link
             className="text-white hover:text-red-500 transition-all font-semibold text-xl"
-            href="/players"
+            to="/players"
           >
             Players
           </Link>
@@ -60,7 +68,7 @@ export default function App() {
         <NavbarItem>
           <Link
             className="text-white hover:text-red-500 transition-all font-semibold text-xl"
-            href="/contact"
+            to="/contact"
           >
             Contact
           </Link>
@@ -69,7 +77,7 @@ export default function App() {
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.label}-${index}`}>
-            <Link className="w-full" href={item.link} size="lg">
+            <Link className="w-full" to={item.link} size="lg">
               {item.label}
             </Link>
           </NavbarMenuItem>
